@@ -20,7 +20,7 @@ if (NOT DESKTOP_APP_USE_PACKAGED)
     set(Qt5_DIR ${qt_loc}/lib/cmake/Qt5)
 endif()
 
-find_package(Qt5 COMPONENTS Core Gui Widgets Network REQUIRED)
+find_package(Qt5 COMPONENTS Core Gui Widgets Network LinguistTools REQUIRED)
 find_package(Qt5Gui COMPONENTS QWebpPlugin REQUIRED)
 
 if (LINUX)
